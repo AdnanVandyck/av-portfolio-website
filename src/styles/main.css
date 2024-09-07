@@ -1,0 +1,95 @@
+body {
+    font-family: 'SF Pro Text', 'Roboto', sans-serif;
+    color: #1A1A1A;
+    background-color: #FFFFFF;
+  }
+  
+  h1, h2, h3, h4, h5, h6, ul {
+    font-family: 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  .section-light {
+    background-color: #FFFFFF;
+    padding: 80px 0;
+  }
+  
+  .section-dark {
+    background-color: #F5F5F7;
+    padding: 80px 0;
+  }
+  
+  .text-highlight {
+    color: #E82127;
+  }
+  
+  .thin-text {
+    font-weight: 300;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .btn-primary {
+    background-color: #E82127;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #C41E21;
+  }
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .project-card {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .project-card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover img {
+    transform: scale(1.05);
+  }
+  .footer {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    padding: 40px 0;
+  }
+  
+  .footer a {
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #E82127;
+    text-decoration: none;
+  }
+  .no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+  }

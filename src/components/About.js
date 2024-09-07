@@ -30,7 +30,7 @@ function About() {
             on new challenges in the ever-evolving world of web development.
           </p>
           <h3 className="mt-4 mb-3">Skills</h3>
-          <ul>
+          <ul className="no-bullets">
             <li>Python</li>
             <li>React</li>
             <li>JavaScript (ES6+)</li>
